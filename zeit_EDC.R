@@ -11,7 +11,7 @@ library(xts)
 # provide API access token
 zeit_client()
 
-#aec3f7174e4dc545704c78ec25f7402fda54daaf3f5e8bd72899
+
 
 # Pull data from Zeit API
 list1=zeit_search("content", c("schuldenkrise","finanzkrise"), limit = 1000) # 1000
